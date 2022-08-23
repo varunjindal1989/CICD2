@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_677299_cicd_dem2.test11</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>test11</name>
+        <script><![CDATA[var test11 = Class.create();
+test11.prototype = {
+    initialize: function() {
+    },
+	
+	sayHello: function() {
+		return "Hello 11";
+    },
+
+    type: 'test11'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 12:36:23</sys_created_on>
+        <sys_id>4105fb6497251110b2b57cb0f053afe5</sys_id>
+        <sys_name>test11</sys_name>
+        <sys_package display_value="CICD Dem2o App" source="x_677299_cicd_dem2">ac773a2897211110b2b57cb0f053af0f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CICD Dem2o App">ac773a2897211110b2b57cb0f053af0f</sys_scope>
+        <sys_update_name>sys_script_include_4105fb6497251110b2b57cb0f053afe5</sys_update_name>
+    </sys_script_include>
+</record_update>
